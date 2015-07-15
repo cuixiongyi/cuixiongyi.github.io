@@ -14,10 +14,10 @@ widget-1:
     text: 'If we knew what it was we were doing, it wouldn&#39;t be called research, would it? &shy &shyAlbert Einstein'
     image: bonny.png
 widget-2:
-    title: "DARPA Robotic Challenge"
-    url: 'http://cuixiongyi.github.io/feeling-responsive/info/'
+    title: "robot fall compilation from DARPA Robotic Challenge"
+    url: 'https://www.youtube.com/watch?v=g0TaYhjpOfo'
     text: 'robot fall compilation from DARPA Robotic Challenge'
-    video: '<a href="https://www.youtube.com/watch?v=g0TaYhjpOfo" data-reveal-id="videoModal"><img src="images/ihmc_fall.jpg" width="302" height="182" alt=""></a>'
+    video: '<a href="https://www.youtube.com/watch?v=g0TaYhjpOfo" data-reveal-id="videoModal"><img src="images/ihmc_fall.jpg"  alt=""></a>'
 widget-3:
     title: "DARPA Robotic Challenge"
     url: 'http://www.theroboticschallenge.org/'
