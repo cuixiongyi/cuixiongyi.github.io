@@ -7,7 +7,7 @@
 layout: frontpage
 title: "Xiongyi Cui's website – Make Things Work!"
 header:
-   image_fullwidth: "team_photo.jpg"
+   image_fullwidth: "team_photo2.jpg"
 widget-1:
     title: "Tech Blog"
     url: 'http://cuixiongyi.github.io/feeling-responsive/blog/'
