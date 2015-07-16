@@ -10,6 +10,8 @@ permalink: "/contact/"
 
 <h1> you could reach me by xcui@wpi.edu 
 
+or fill in the form
+
 
 <div class="panel">
 <iframe width="100%" height="650" frameborder="0" scrolling="no" src="https://xiongyicui.wufoo.com/forms/untitled-form/"></iframe>

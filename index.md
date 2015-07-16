@@ -22,13 +22,13 @@ widget-3:
     title: "DARPA Robotic Challenge"
     url: 'http://www.theroboticschallenge.org/'
     text: 'I&#39;m very proud to be a member of team WPI-CMU in <em>DARPA Robotic Challenge</em>.  <a href="http://drc.wpi.edu/">@wpidrc</a>.'
-    image: github-303x182.jpg
+    image: garage_24.jpg
 ---
 
 
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
-    <iframe width="1280" height="720" src="https://www.youtube.com/embed/3b5zCFSmVvU" frameborder="0" allowfullscreen></iframe>
+    <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=g0TaYhjpOfo" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
