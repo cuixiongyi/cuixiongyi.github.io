@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Global configuration to use ctags parser"
+title:  "GNU global configuration use ctags parser"
 breadcrumb: true
 categories:
     - environment
@@ -9,11 +9,7 @@ show_meta: true
 
 ---
 
-<div class="medium-8 medium-pull-4 columns" markdown="1">
 
-<h2> GNU Global configuration to use ctags parser
-
-### Table of Contents
 
 ~~~
 # Installation of GLOBAL
@@ -29,7 +25,4 @@ $ export GTAGSLABEL=ctags
 $ gtags                         # gtags invokes Exuberant Ctags internally
 ~~~
 
-
-<a> ref http://www.gnu.org/software/global/manual/global.html
-
-</div>
+<a>http://www.gnu.org/software/global/manual/global.html </a>
