@@ -14,6 +14,14 @@ comments: true
 show_meta: true
 
 ---
+<div class="panel radius" markdown="1">
+Inhalt
+{: #toc }
+*  TOC
+{:toc}
+</div>
+
+
 <h1> This article will record references on speed up computation </h1>
 <h2> specificlly on CPU computation including multithreading and SSE. GPU will be on another article </h2>
 
