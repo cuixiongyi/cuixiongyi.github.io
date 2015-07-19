@@ -11,7 +11,7 @@ tags:
 
 ---
 
-## get rid of deleted origin/branches
+<h2> get rid of deleted origin/branches </h2> 
 ~~~
 git remote prune origin
 ~~~

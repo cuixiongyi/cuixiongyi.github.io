@@ -14,11 +14,12 @@ comments: true
 show_meta: true
 
 ---
-# This article will record references on speed up computation
-## specificlly on CPU computation including multithreading and SSE. GPU will be on another article
+<h1> This article will record references on speed up computation </h1>
+<h2> specificlly on CPU computation including multithreading and SSE. GPU will be on another article </h2>
 
 
-## Speed up Eigen
+
+<h2>  Speed up Eigen </h2> 
 
 Eigen Q&A on vectorization (SSE)
 http://eigen.tuxfamily.org/index.php?title=FAQ
