@@ -31,7 +31,7 @@ show_meta: true
 
 
 <h1> This article will record references on speed up computation </h1>
-<h3> specificlly on CPU computation including multithreading and SSE. GPU will be on another article </h3>
+<h3> specifically on CPU computation including multithreading and SSE. GPU will be on another article </h3>
 <br> 
 <br> 
 
