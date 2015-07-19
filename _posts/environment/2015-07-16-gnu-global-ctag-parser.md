@@ -4,6 +4,9 @@ title:  "GNU global configuration use ctags parser"
 breadcrumb: true
 categories:
     - environment
+tags:
+    - global
+    - ctags
 comments: true
 show_meta: true
 
