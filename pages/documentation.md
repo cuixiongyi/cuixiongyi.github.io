@@ -19,7 +19,7 @@ header:
 
 
 
-<div class="medium-8 medium-pull-4 columns" markdown="1">
+<div class="medium-12 medium-pull-4 columns" markdown="1">
 {% include improve_content.html %}
 
 ## Different Page/Posts Formats   {#formats}
