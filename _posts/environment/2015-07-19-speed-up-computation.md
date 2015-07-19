@@ -1,6 +1,6 @@
 ---
 layout: page
-subheadline:  "Headers With Style"
+subheadline:  "accelerating"
 title:  "Speed Up Computation"
 teaser: "various ways to speed up your computation"
 categories:
