@@ -31,7 +31,7 @@ show_meta: true
 
 
 <h1> This article will record references on speed up computation </h1>
-<h3> specificlly on CPU computation including multithreading and SSE. GPU will be on another article </h3>
+<h3> specifically on CPU computation including multithreading and SSE. GPU will be on another article </h3>
 <br> 
 <br> 
 
@@ -40,11 +40,16 @@ Speed up Eigen
 <br> 
 
 * [Eigen Q&A on vectorization (SSE)](http://eigen.tuxfamily.org/index.php?title=FAQ)
-
 <br> 
 
-*	[Speed comparsion and ways to accelerate](http://stackoverflow.com/questions/14783219/how-to-speed-up-eigen-librarys-matrix-product)
+*	[Speed comparsion (Eigen, numpy and Matlab) and ways to accelerate](http://stackoverflow.com/questions/14783219/how-to-speed-up-eigen-librarys-matrix-product)
 <br> 
+
+Using raw pointer for Matrix
+---
+
+* [C++ Eigen Matrix Operations vs. Memory Allocation Performance](http://stackoverflow.com/questions/21402426/c-eigen-matrix-operations-vs-memory-allocation-performance)
+* [Eigen::Map](http://eigen.tuxfamily.org/dox/group__TutorialMapClass.html)
 
 Speed up using SSE 
 ===
