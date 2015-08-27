@@ -10,7 +10,7 @@ header:
    image_fullwidth: "team_photo2.jpg"
 widget-1:
     title: "Tech Blog"
-    url: 'http://cuixiongyi.github.io/feeling-responsive/blog/'
+    url: 'http://cuixiongyi.github.io/blog/'
     text: 'If we knew what it was we were doing, it wouldn&#39;t be called research, would it? &shy &shyAlbert Einstein'
     image: bonny.png
 widget-2:
