@@ -64,7 +64,7 @@ SSE instruction
 ---
 *	[intel intrinsics Guide](https://software.intel.com/sites/landingpage/IntrinsicsGuide/)
 <br> 
-
+*	[SSE starter](http://gamedev.stackexchange.com/questions/12601/simd-c-library)
 
 </div><!-- /.medium-8.columns -->
 
