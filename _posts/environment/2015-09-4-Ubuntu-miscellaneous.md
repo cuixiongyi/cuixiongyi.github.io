@@ -17,9 +17,9 @@ show_meta: true
 
 <div class="medium-14 medium-pull-3 columns" markdown="1">
 
-#	hibernation without a swap partition
+##	hibernation without a swap partition
 
-	Now to hibernate, use
+* Now to hibernate, use
 		s2disk
 
 [how to add hibernation](https://wiki.debian.org/Hibernation/Hibernate_Without_Swap_Partition)
