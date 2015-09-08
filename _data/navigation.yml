@@ -2,27 +2,16 @@
   url: "/"
   side: left
 
-- title: Getting Started
-  url: "/getting-started/"
-  side: left
-
 - title: "Projects"
   url: "/headers/"
   side: left
   dropdown:
   - title: "articulate joints tracking with Depth image"
     url: "/robotics/icp/"
-
-- title: Documentation
-  url: "/documentation/"
-  side: left
-  dropdown:
-  - title: Documentation
-    url: "/documentation/"
-  - title: "Changelog"
-    url: "/changelog/"
-  - title: "Roadmap"
-    url: "/roadmap/"
+  - title: "articulated joint tracking"
+    url: "/robotics/articulated-joint-tracking/"  
+    - title: "primitive hand tracking"
+      url: "/robotics/primitive-hand-tracking/"
 
 - title: Blog
   url: "/blog/"
