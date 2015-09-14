@@ -21,8 +21,8 @@ widget-2:
 widget-3:
     title: "Primitive Hand Tracking"
     url: 'https://www.youtube.com/watch?v=ZcIvLRx9GuI'
-    text: 'This is the summer project I did from July. It able to track articulated joints.'
-    video: '<a href="https://www.youtube.com/watch?v=ZcIvLRx9GuI" data-reveal-id="videoModal"><img src="images/handtrack_pic.png"  alt=""> </a>'
+    text: 'This is the summer project I did from July. It able to track articulated joints. <a href="https://www.youtube.com/watch?v=ZcIvLRx9GuI">Video</a>.'
+    video: '<a href="https://www.youtube.com/watch?v=ZcIvLRx9GuI" data-reveal-id="videoModal2"><img src="images/handtrack_pic.png"  alt=""> </a>'
 
 ---
 
@@ -30,6 +30,13 @@ widget-3:
 <div id="videoModal" class="reveal-modal large" data-reveal="">
   <div class="flex-video widescreen vimeo" style="display: block;">
     <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=g0TaYhjpOfo" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="videoModal2" class="reveal-modal large" data-reveal="">
+  <div class="flex-video widescreen vimeo" style="display: block;">
+    <iframe width="1280" height="720" src="https://www.youtube.com/watch?v=ZcIvLRx9GuI" frameborder="0" allowfullscreen></iframe>
   </div>
   <a class="close-reveal-modal">&#215;</a>
 </div>
