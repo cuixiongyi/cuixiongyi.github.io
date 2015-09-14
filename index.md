@@ -19,10 +19,11 @@ widget-2:
     text: 'robot fall compilation from DARPA Robotic Challenge'
     video: '<a href="https://www.youtube.com/watch?v=g0TaYhjpOfo" data-reveal-id="videoModal"><img src="images/ihmc_fall.jpg"  alt=""></a>'
 widget-3:
-    title: "DARPA Robotic Challenge"
-    url: 'http://www.theroboticschallenge.org/'
-    text: 'I&#39;m very proud to be a member of team WPI-CMU in <em>DARPA Robotic Challenge</em>.  <a href="http://drc.wpi.edu/">@wpidrc</a>.'
-    image: garage_24.jpg
+    title: "Primitive Hand Tracking"
+    url: 'https://www.youtube.com/watch?v=ZcIvLRx9GuI'
+    text: 'This is the summer project I did from July. It able to track articulated joints.'
+    video: '<a href="https://www.youtube.com/watch?v=ZcIvLRx9GuI" data-reveal-id="videoModal"><img src="images/handtrack_pic.png"  alt=""> </a>'
+
 ---
 
 
