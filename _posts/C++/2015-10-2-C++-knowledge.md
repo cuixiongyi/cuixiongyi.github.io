@@ -12,15 +12,6 @@ comments: true
 show_meta: true
 
 ---
-<div class="row">
-<div class="medium-9 medium-push-10 columns" markdown="1">
-<div class="panel radius" markdown="1">
-**Table of Contents**
-{: #toc }
-*  TOC
-{:toc}
-</div>
-</div><!-- /.medium-4.columns -->
 
 
 A Default is good thing. They are good styles and inline with the following principle.
