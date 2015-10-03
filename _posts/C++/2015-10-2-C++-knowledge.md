@@ -52,7 +52,7 @@ If funciont only use the obejct don't want to change the pointer, pass by raw po
 ## Warning Do NOT Dereference Non-local pointer
 ![alt text][DereferencePointer]
 
-[DereferencePointer]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/C++_DereferencePointer.png "DereferencePointer"
+[DereferencePointer]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/C%2B%2B_DereferencePointer.png "DereferencePointer"
 
 see PDF or video for detail.
 
