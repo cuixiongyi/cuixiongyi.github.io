@@ -36,8 +36,8 @@ Default:
 		use(e); 
 	}
 # Use smart pointers
-stop using Owing pointer* new delete
-
+## stop using Owing pointer* new delete
+use unique_ptr as default pointer, it has very low overhead.
 Default:
 	unique_ptr<widget> factory();
 	void caller() 
@@ -46,8 +46,16 @@ Default:
 		auto g = make_unique<gadget>();
 		use( *w, *g );
 	}
+## Use Non-Owing */& 
+If funciont only use the obejct don't want to change the pointer, pass by raw pointer* or &.
 
-	
+## Warning Do NOT Dereference Non-local pointer
+![alt text][DereferencePointer]
+
+[DereferencePointer]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/C++_DereferencePointer.png "DereferencePointer"
+
+see PDF or video for detail.
+
 <div class="medium-14 medium-pull-3 columns" markdown="1">
 
 
