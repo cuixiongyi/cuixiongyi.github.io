@@ -13,6 +13,9 @@ show_meta: true
 
 ---
 
+# Update
+
+I found Herb posted [Elements of Modern C++ Style](http://herbsutter.com/elements-of-modern-c-style/) on his website.
 
 # Default is GOOD
 A Default is good thing. They are good styles and inline with the following principle.
@@ -68,7 +71,8 @@ use **auto** for local variable when you want type to track.
 
 [useautoexample]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/C%2B%2B_useautoexample.png "useautoexample"
 
-
+## 
+	auto pb = unique_ptr<base>{ make_unique<derived>() }; 
 
 https://www.youtube.com/watch?v=xnqTKD8uD64
 
