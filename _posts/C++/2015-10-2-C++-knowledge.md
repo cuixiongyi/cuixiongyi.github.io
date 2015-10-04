@@ -14,6 +14,7 @@ show_meta: true
 ---
 
 
+# Default is GOOD
 A Default is good thing. They are good styles and inline with the following principle.
 
 	“Write for clarity and correctness first.”
@@ -57,6 +58,15 @@ If funciont only use the obejct don't want to change the pointer, pass by raw po
 
 see PDF or video for detail.
 
+
+# use auto
+
+use **auto** for local variable when you want type to track.
+
+
+![alt text][useautoexample]
+
+[useautoexample]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/C%2B%2B_useautoexample.png "useautoexample"
 
 
 
