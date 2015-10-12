@@ -1,0 +1,24 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+
+	char* str = "abcdefg";
+	char* str_h = str;
+	// wirte the statement saperate
+	cout <<"*str=	"<< *str << "	pos= " << str - str_h<<endl;
+
+	cout << "*str++=	" << *str++ << " 	pos= " << str - str_h << endl;
+	
+	cout << endl<< "str = str_0" << endl << endl;
+	str = str_h;
+	// wirte the statement in one line
+	cout << "*str=	" << *str << "	pos= " << str - str_h << endl
+	<< "*str++=	" << *str++ << " 	pos= " << str - str_h << endl;
+
+
+	char t;
+	cin >> t;
+}
