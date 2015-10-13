@@ -104,9 +104,11 @@ Reference
 
 But in this case, I guess sequence point doesn't matter, because the computation of `*str` and `*str++` individually are well defined. But it is the sequence of executing them make the difference.
 
-* [This answer](http://stackoverflow.com/a/31083924) observe that
-> *just because the ```++``` comes after the variable does not mean that the increment happens late.* The increment can happen as early as the compiler likes as long as the compiler ensures that the original value is used.
+* [This answer](http://stackoverflow.com/a/31083924) observes that
+*just because the ```++``` comes after the variable does not mean that the increment happens late.* The increment can happen as early as the compiler likes as long as the compiler ensures that the original value is used.
 
-	
+Conclusion
+===	
 
+The reason of this strange behavior is that the statement is an Undefined Behavior(UB). So there is no standard to define the execution of this statement. Thus the compiler could do whatever to optimize the code and in both MSVC and GCC does optimization in a way we didn't expect.
 
