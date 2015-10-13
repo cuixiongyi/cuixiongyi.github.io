@@ -65,7 +65,7 @@ pointer, not an array:
 Although ia is an array of ten ints, when we use ia as an initializer, the compiler
 treats that initialization as if we had written
 
-	auto ia2(&amp;ia[0]); // now it's clear that ia2 has type int*
+	auto ia2(&ia[0]); // now it's clear that ia2 has type int*
 
 It is worth noting that this conversion does not happen when we use decltype (§
 2.5.3, p. 70). The type returned by decltype(ia) is array of ten ints:
