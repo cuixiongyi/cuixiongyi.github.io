@@ -88,10 +88,12 @@ g++4.8.2
 For g++ even the first statement is "wrong"
 When execute
 	
-	cout << "*str++=	" << *str++ << " 	pos= " << str - str_h << endl;
+	cout << "*str++=" << *str++ << " 	pos= " << str - str_h << endl;
 
 the output str - str_h should be executed after str++, so it's pos should be 1
+
 But here str - str_h is obviously executed after str++, so it's pos is 0;
+
 Then in the next line, the pos afterwards is 1
 
 
