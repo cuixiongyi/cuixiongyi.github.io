@@ -1,8 +1,8 @@
 ---
 layout: page
 subheadline:  ""
-title:  "Naive Array"
-teaser: "There are several strang things about naive array, although I don't use them no more"
+title:  "Pointer performance test"
+teaser: "How unique_ptr, shared_ptr compare to raw ptr"
 categories:
     - C++
 tags:
@@ -97,3 +97,10 @@ Result
 ![alt text][unique_ptr]
 
 [unique_ptr]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/unique_ptr.png "unique_ptr"
+
+Conculsion
+---
+
+Although raw pointer is twice as fast as unique_ptr, I guess compare to the whole program, the pointer overhead is trivial, while the benefit of using unique_ptr is enormous. 
+
+**So, I would still use unique_ptr as default.**
