@@ -19,9 +19,9 @@ show_meta: true
 C++ Primer 3.5.1
 
 	int *ptrs[10]; 			// ptrs is an array of ten pointers to int
-	int &amp;refs[10] = /* ? */; 	// error: no arrays of references
-	int (*Parray)[10] = &amp;arr; 	// Parray points to an array of ten ints
-	int (&amp;arrRef)[10] = arr; 	// arrRef refers to an array of ten ints
+	int &refs[10] = /* ? */; 	// error: no arrays of references
+	int (*Parray)[10] = &arr; 	// Parray points to an array of ten ints
+	int (&arrRef)[10] = arr; 	// arrRef refers to an array of ten ints
 
 By default, type modifiers bind right to left. Reading the definition of ptrs from right to left (§ 2.3.3, p. 58) is easy: We see that we’re defining an array of size 10, named ptrs, that holds pointers to int.
 
@@ -33,12 +33,12 @@ We start by observing
 that the parentheses around *Parray mean that Parray is a pointer. Looking right,
 we see that Parray points to an array of size 10. Looking left, we see that the
 elements in that array are ints. Thus, Parray is a pointer to an array of ten ints.
-Similarly, `(&amp;arrRef)` says that arrRef is a reference. The type to which it refers is
+Similarly, `(&arrRef)` says that arrRef is a reference. The type to which it refers is
 an array of size 10. That array holds elements of type int.
 
 Of course, there are no limits on how many type modifiers can be used:
 
-	int *(&amp;arry)[10] = ptrs; // arry is a reference to an array of ten pointers
+	int *(&arry)[10] = ptrs; // arry is a reference to an array of ten pointers
 
 Reading this declaration from the inside out, we see that arry is a reference. Looking
 right, we see that the object to which arry refers is an array of size 10. Looking left,
