@@ -36,15 +36,16 @@ Run this code in VS2013
 
 		char* str = "abcdefg";
 		char* str_h = str;
-		// wirte the statement saperate
+		// 1st statement
 		cout <<"*str=	"<< *str << "	pos= " << str - str_h<<endl;
 
+		// 2nd statement
 		cout << "*str++=	" << *str++ << " 	pos= " << str - str_h << endl;
 		cout<<"pos= " <<str - str_h <<endl;
 
 		cout << endl<< "str = str_0" << endl << endl;
 		str = str_h;
-		// wirte the statement in one line
+		// 3rd statement
 		cout << "*str=	" << *str << "	pos= " << str - str_h << endl
 		<< "*str++=	" << *str++ << " 	pos= " << str - str_h << endl;
 
@@ -66,7 +67,7 @@ VS2013
 [VS2013]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/vc2013.png "VS2013"
 
 
-The second statement give a different result and it's obvious wrong.
+The 3rd statement give an obvious wrong.
 
 	cout<< *str <<endl<< *str++ <<endl;
 
@@ -85,7 +86,7 @@ g++4.8.2
 
 [g++_str++]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/g++_str++.png "g++_str++"
 
-For g++ even the first statement is "wrong"
+For g++ even the 2nd statement is "wrong"
 When execute
 	
 	cout << "*str++=" << *str++ << " 	pos= " << str - str_h << endl;
