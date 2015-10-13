@@ -116,7 +116,7 @@ The reason of this strange behavior is that the statement is an Undefined Behavi
 Afterwards
 ---
 
-It terns out that C++ primer (5th edition) already covered this.
+It turns out that C++ primer (5th edition) already covered this.
 
 ![alt text][order_of_evaluation1]
 
