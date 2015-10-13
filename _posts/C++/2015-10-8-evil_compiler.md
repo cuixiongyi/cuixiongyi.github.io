@@ -98,14 +98,10 @@ But here str - str_h is obviously executed after str++, so it's pos is 0;
 Then in the next line, the pos afterwards is 1
 
 
+
 Reference
 ---
 * [Sequence point](https://en.wikipedia.org/wiki/Sequence_point)
-
-But in this case, I guess sequence point doesn't matter, because the computation of `*str` and `*str++` individually are well defined. But it is the sequence of executing them make the difference.
-
-* [This answer](http://stackoverflow.com/a/31083924) observes that
-*just because the ```++``` comes after the variable does not mean that the increment happens late.* The increment can happen as early as the compiler likes as long as the compiler ensures that the original value is used.
 
 Conclusion
 ===	
