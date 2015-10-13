@@ -113,3 +113,26 @@ Conclusion
 
 The reason of this strange behavior is that the statement is an Undefined Behavior(UB). So there is no standard to define the execution of this statement. Thus the compiler could do whatever to optimize the code and in both MSVC and GCC does optimization in a way we didn't expect.
 
+Afterwards
+---
+
+It terns out that C++ primer (5th edition) already covered this.
+
+![alt text][order_of_evaluation1]
+
+[order_of_evaluation1]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/order_of_evaluation1.png "order_of_evaluation1"
+
+
+![alt text][order_of_evaluation2]
+
+[order_of_evaluation2]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/order_of_evaluation2.png "order_of_evaluation2"
+
+![alt text][order_of_evaluation3]
+
+[order_of_evaluation3]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/order_of_evaluation3.png "order_of_evaluation3"
+
+![alt text][order_of_evaluation4]
+
+[order_of_evaluation4]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/order_of_evaluation4.png "order_of_evaluation4"
+
+
