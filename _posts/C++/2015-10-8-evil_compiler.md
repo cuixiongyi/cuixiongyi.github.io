@@ -78,33 +78,3 @@ So the code execution sequence is
 	*str 	// the last one, so the output is 'a'
 	str++	// 
 	*str 	// the first one
-
-g++4.8.2
----
-
-![alt text][g++_str++]
-
-[g++_str++]: https://raw.githubusercontent.com/cuixiongyi/cuixiongyi.github.io/master/images/g++_str++.png "g++_str++"
-
-For g++ even the 2nd statement is "wrong"
-When execute
-	
-	cout << "*str++=" << *str++ << " 	pos= " << str - str_h << endl;
-
-the output str - str_h should be executed after str++, so it's pos should be 1
-
-But here str - str_h is obviously executed after str++, so it's pos is 0;
-
-Then in the next line, the pos afterwards is 1
-
-
-
-Reference
----
-* [Sequence point](https://en.wikipedia.org/wiki/Sequence_point)
-
-Conclusion
-===	
-
-The reason of this strange behavior is that the statement is an Undefined Behavior(UB). So there is no standard to define the execution of this statement. Thus the compiler could do whatever to optimize the code and in both MSVC and GCC does optimization in a way we didn't expect.
-
