@@ -2,7 +2,7 @@
 layout: page
 subheadline:  ""
 title:  "The Evil Compiler"
-teaser: "An invsiable hand is fcuking my code"
+teaser: "Compiler is the new enemy"
 categories:
     - C++
 tags:
