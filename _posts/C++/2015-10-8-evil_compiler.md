@@ -113,7 +113,7 @@ Conclusion
 
 The reason of this strange behavior is that the statement is an Undefined Behavior(UB). So there is no standard to define the execution of this statement. Thus the compiler could do whatever to optimize the code and in both MSVC and GCC does optimization in a way we didn't expect.
 
-Afterwards
+Update
 ---
 
 It turns out that C++ primer (5th edition) already covered this.
