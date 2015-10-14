@@ -26,8 +26,11 @@ Test the performance of unique_ptr, shared_ptr and raw ptr
 	#include <memory>
 	#include <vector>
 	#include <chrono>
+	#include <string>
+	#include <sstream>
 	typedef std::chrono::high_resolution_clock Clock;
 
+	typedef decltype(Clock::now()) Clock_Now;
 
 	using namespace std;
 
@@ -41,6 +44,13 @@ Test the performance of unique_ptr, shared_ptr and raw ptr
 		double data;
 	};
 
+	string time2str(Clock_Now t1, Clock_Now t2)
+	{
+		stringstream ss;
+		ss<<std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count()
+			<<" microseconds"<<endl<<endl;
+		return ss.str();
+	}
 	int main()
 	{
 		constexpr int count = 1000000; 
@@ -51,8 +61,7 @@ Test the performance of unique_ptr, shared_ptr and raw ptr
 		}
 	    auto t2 = Clock::now();
 	    std::cout << "make_unique "<< count<< " times "
-	              << std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count()
-	              << " microseconds" << std::endl<<endl;
+	              << time2str(t1, t2);
 
 		t1 = Clock::now();
 		for (int i = 0; i < count; ++i)
@@ -61,8 +70,7 @@ Test the performance of unique_ptr, shared_ptr and raw ptr
 		}
 	    t2 = Clock::now();
 	    std::cout << "make_shared "<< count<< " times "
-	              << std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count()
-	              << " microseconds" << std::endl<<endl;
+	              << time2str(t1, t2);
 
 
 		t1 = Clock::now();
@@ -73,18 +81,13 @@ Test the performance of unique_ptr, shared_ptr and raw ptr
 		}
 	    t2 = Clock::now();
 	    std::cout << "raw point "<< count<< " times "
-	              << std::chrono::duration_cast<std::chrono::microseconds>(t2 - t1).count()
-	              << " microseconds" << std::endl<<endl;
+	              << time2str(t1, t2);
 
 		char t;
 		cin >> t;
 
-
-		char ca[] = {'C', '+', '+'};
-		cout<< ca<<endl;
 		return 1;
 	}
-
 compile with
 
 	g++-5 -std=c++1y unique_ptr.cpp -o uniq
