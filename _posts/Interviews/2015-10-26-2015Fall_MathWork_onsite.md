@@ -31,45 +31,45 @@ There are 4 pages of C++ code and you need to find out the output
 
 1. The behavior of virtual destructor
 
-	include <iostream>
-	Class A
-	{
-	public:
-		~A()
+		#include <iostream>
+		Class A
 		{
-			std::cout<<"A"<<std::endl;
+		public:
+			~A()
+			{
+				std::cout<<"A"<<std::endl;
+			}
 		}
-	}
-	Class B
-	{
-	public:
-		~B()
+		Class B
 		{
-			std::cout<<"B"<<std::endl;
+		public:
+			~B()
+			{
+				std::cout<<"B"<<std::endl;
+			}
 		}
-	}
-	
-	void main()
-	{
-		A* ptr = new B;
-		delete ptr;
-		return;
-	}
+
+		void main()
+		{
+			A* ptr = new B;
+			delete ptr;
+			return;
+		}
 	
 	
 1. Static class member 
 
 1. Behavior of array pointer
 
-	#include <iostream>
-	void main()
-	{
-		int arr[] = {0,1,2,3,4};
-		//int* ptr = arr;
-		std::cout<<*(arr+1)<<std::endl;
-		std::cout<<*(arr++)<<std::endl;
-		return;
-	}
+		#include <iostream>
+		void main()
+		{
+			int arr[] = {0,1,2,3,4};
+			//int* ptr = arr;
+			std::cout<<*(arr+1)<<std::endl;
+			std::cout<<*(arr++)<<std::endl;
+			return;
+		}
 
 
 
@@ -84,17 +84,17 @@ The first scenario is the proccess data.
 
 1. How to optimize the following code
 
-	sensorData = [50, 30, 45, 36, 45];
-	scalePara = [2, 6, 8, 32, 10, 32];
-	for sensor = 1 : 5
-		scaledData(sensor) = sensorData(sensor) / scalePara(sensor);
-	end
+		sensorData = [50, 30, 45, 36, 45];
+		scalePara = [2, 6, 8, 32, 10, 32];
+		for sensor = 1 : 5
+			scaledData(sensor) = sensorData(sensor) / scalePara(sensor);
+		end
 
 2. How to optimize the code if (data still needed to be divided by the scaledPara, which means that you need to do it row by row). I used a loop over the rows, but there must be better ways to do this.
 	
-	sensorData = [50, 30, 45, 36, 45,
-			52, 32, 74, 23, 68,
-			20, 30, 48, 95, 30];
+		sensorData = [50, 30, 45, 36, 45,
+				52, 32, 74, 23, 68,
+				20, 30, 48, 95, 30];
 
 ### Scenario 2
 
