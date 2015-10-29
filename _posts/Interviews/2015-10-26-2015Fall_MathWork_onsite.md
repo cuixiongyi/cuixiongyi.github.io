@@ -1,8 +1,8 @@
-
 ---
 layout: page
 subheadline:  "Onsite Interview from MathWork 2015 Fall"
 title:  "Onsite Interview from MathWork 2015 Fall"
+teaser: "Interview"
 categories:
     - interview
 tags:
@@ -28,6 +28,7 @@ Write down any sorting algorithm
 There are 4 pages of C++ code and you need to find out the output
 
 1. The first one is about shallow and deep copy 
+
 1. The behavior of virtual destructor
 
 	include <iostream>
@@ -57,6 +58,7 @@ There are 4 pages of C++ code and you need to find out the output
 	
 	
 1. Static class member 
+
 1. Behavior of array pointer
 
 	#include <iostream>
@@ -69,7 +71,7 @@ There are 4 pages of C++ code and you need to find out the output
 		return;
 	}
 
-1. 
+
 
 
 ## Matlab
@@ -118,5 +120,4 @@ It's really simple the first one is a linear function with porperty
 	
 	F(A+B) = F(A) + F(B)
 	F(kA) = kF(A)
-
 
