@@ -1,5 +1,18 @@
 
+---
+layout: page
+subheadline:  "Onsite Interview from MathWork 2015 Fall"
+title:  "Onsite Interview from MathWork 2015 Fall"
+categories:
+    - interview
+tags:
+    - interview
+    - MathWork
 
+comments: true
+show_meta: true
+
+---
 
 I had a onsite interview at MathWork today. Sadly I didn't make it.
 
@@ -102,7 +115,8 @@ The first scenario is the proccess data.
 ## Math
 
 It's really simple the first one is a linear function with porperty 
-F(A+B) = F(A) + F(B)
-F(kA) = kF(A)
+	
+	F(A+B) = F(A) + F(B)
+	F(kA) = kF(A)
 
 
