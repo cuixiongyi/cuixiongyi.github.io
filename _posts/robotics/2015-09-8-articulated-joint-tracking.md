@@ -12,7 +12,7 @@ show_meta: true
 
 #	2015-9-8 Update
 
-##	[hand tracking demo](https://cuixiongyi.github.io/robotics/primitive-hand-tracking/)
+##	[hand tracking demo](https://cuixiongyi.github.io/robotics/hand-tracking/)
 
 ###	achievement
 * build kinematic chain, read stl model and customized joint config. 
