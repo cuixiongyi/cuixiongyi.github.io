@@ -10,8 +10,8 @@
     url: "/robotics/icp/"
   - title: "articulated joint tracking"
     url: "/robotics/articulated-joint-tracking/"  
-  - title: "primitive hand tracking"
-    url: "/robotics/primitive-hand-tracking/"
+  - title: "hand tracking"
+    url: "/robotics/hand-tracking/"
 
 - title: Blog
   url: "/blog/"
