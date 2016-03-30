@@ -1,8 +1,8 @@
 ---
 layout: video
-title:  "primitive hand tracking"
-subheadline:  "primitive hand tracking with synthesized data"
-teaser: "a primitive hand tracking demo"
+title:  "hand tracking"
+subheadline:  "hand tracking with synthesized data"
+teaser: "a hand tracking demo"
 categories:
     - robotics
 comments: true
